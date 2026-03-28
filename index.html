@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abu Bakar – Software Engineer specializing in Android, Flutter, and Web development. Available for freelance projects worldwide." />
+  <meta name="keywords" content="Android Developer, Flutter Developer, Web Developer, Software Engineer, Freelance, Abu Bakar" />
+  <meta property="og:title" content="Abu Bakar | Software Engineer" />
+  <meta property="og:description" content="Building Scalable Digital Solutions for Web & Mobile." />
+  <meta property="og:type" content="website" />
+  <title>Abu Bakar | Software Engineer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>AbuBakar<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-cta-btn">Hire Me</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+
+    <div class="container hero-container">
+      <div class="hero-content" data-aos="fade-right">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Available for Freelance Projects
+        </div>
+
+        <h1 class="hero-title">
+          Building <span class="gradient-text">Scalable Digital</span><br />
+          Solutions for Web &amp; Mobile.
+        </h1>
+
+        <p class="hero-subtitle">
+          Hi, I'm <strong>Abu Bakar</strong>. A Software Engineer specializing in creating
+          high-performance <span class="accent">Android</span>,
+          <span class="accent">Flutter</span>, and
+          <span class="accent">Web</span> applications.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Hire Me
+          </a>
+          <a href="#projects" class="btn btn-secondary">
+            <i class="fas fa-eye"></i> View My Work
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number" data-count="3">0</span>
+            <span class="stat-label">Apps Published</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" data-count="3">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" data-count="5">0</span>
+            <span class="stat-label">Tech Stacks</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-aos="fade-left">
+        <div class="hero-avatar-wrapper">
+          <div class="avatar-ring ring-1"></div>
+          <div class="avatar-ring ring-2"></div>
+          <div class="avatar-ring ring-3"></div>
+          <div class="avatar-container">
+            <div class="avatar-placeholder">
+              <i class="fas fa-user-tie"></i>
+            </div>
+          </div>
+          <!-- Floating tech bubbles -->
+          <div class="tech-bubble bubble-1"><i class="fab fa-android"></i></div>
+          <div class="tech-bubble bubble-2">
+            <svg viewBox="0 0 24 24" class="flutter-icon" xmlns="http://www.w3.org/2000/svg" aria-label="Flutter"><path d="M14.314 0L2.3 12 6 15.7 21.684 0h-7.37zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z"/></svg>
+          </div>
+          <div class="tech-bubble bubble-3"><i class="fab fa-js"></i></div>
+          <div class="tech-bubble bubble-4"><i class="fab fa-html5"></i></div>
+          <div class="tech-bubble bubble-5"><i class="fas fa-robot"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <span class="scroll-mouse">
+        <span class="scroll-wheel"></span>
+      </span>
+    </a>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image-wrapper" data-aos="fade-right">
+          <div class="about-image-bg"></div>
+          <div class="about-image-card">
+            <div class="about-avatar-placeholder">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <div class="about-image-badge">
+              <i class="fas fa-code"></i>
+              <span>Full-Stack Dev</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content" data-aos="fade-left">
+          <h3 class="about-greeting">
+            Hey there! <span class="wave">👋</span>
+          </h3>
+          <p class="about-text">
+            I'm <strong>Abu Bakar</strong>, a passionate Software Engineer with a deep love for
+            crafting digital experiences that make a real difference. My journey into tech started
+            with curiosity and grew into a full-blown commitment to building products that are not
+            only functional but truly enjoyable to use.
+          </p>
+          <p class="about-text">
+            I specialize in <strong>Android development</strong> (Kotlin), <strong>cross-platform
+            app development</strong> (Flutter), and <strong>front-end web development</strong>.
+            My approach focuses on writing clean, maintainable code and solving complex problems
+            with elegant, user-centric solutions.
+          </p>
+          <p class="about-text">
+            When I'm not coding, I explore the intersection of <strong>AI and software development</strong>,
+            create tech content on YouTube, and stay up-to-date with the latest in mobile and web technologies.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>Problem-first approach to development</span>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>Clean, well-documented code</span>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>User-centric design philosophy</span>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>On-time delivery, every project</span>
+            </div>
+          </div>
+
+          <div class="about-ctas">
+            <a href="#contact" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Get In Touch
+            </a>
+            <a href="#projects" class="btn btn-ghost">
+              <i class="fas fa-briefcase"></i> My Projects
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SKILLS SECTION
+  ============================================================ -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle">Technologies and tools I work with to build world-class products.</p>
+      </div>
+
+      <div class="skills-categories" data-aos="fade-up">
+
+        <div class="skill-category">
+          <div class="category-header">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Mobile Development</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon android-icon">
+                <i class="fab fa-android"></i>
+              </div>
+              <span class="skill-name">Android</span>
+              <span class="skill-sub">Kotlin / Java</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon flutter-icon-wrap">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="flutter-svg"><path d="M14.314 0L2.3 12 6 15.7 21.684 0h-7.37zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z"/></svg>
+              </div>
+              <span class="skill-name">Flutter</span>
+              <span class="skill-sub">Dart</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="category-header">
+            <i class="fas fa-globe"></i>
+            <h3>Web Development</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon html-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <span class="skill-name">HTML5</span>
+              <span class="skill-sub">Semantic Markup</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon css-icon">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <span class="skill-name">CSS3</span>
+              <span class="skill-sub">Responsive Design</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon js-icon">
+                <i class="fab fa-js-square"></i>
+              </div>
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-sub">ES6+</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="category-header">
+            <i class="fas fa-star"></i>
+            <h3>Other Interests</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon ai-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <span class="skill-name">AI Integration</span>
+              <span class="skill-sub">ML APIs</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon ux-icon">
+                <i class="fas fa-pencil-ruler"></i>
+              </div>
+              <span class="skill-name">UI/UX</span>
+              <span class="skill-sub">Figma / Design</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon video-icon">
+                <i class="fas fa-video"></i>
+              </div>
+              <span class="skill-name">Video Editing</span>
+              <span class="skill-sub">Content Creation</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon git-icon">
+                <i class="fab fa-git-alt"></i>
+              </div>
+              <span class="skill-name">Git / GitHub</span>
+              <span class="skill-sub">Version Control</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROJECTS SECTION
+  ============================================================ -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Real-world applications I've built from concept to deployment.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: VU Students Guide -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image">
+            <div class="project-mockup mockup-vu">
+              <div class="mockup-screen">
+                <div class="mockup-header">
+                  <div class="mockup-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+                <div class="mockup-content">
+                  <div class="mockup-icon"><i class="fab fa-android"></i></div>
+                  <div class="mockup-title">VU Students Guide</div>
+                  <div class="mockup-bar"></div>
+                  <div class="mockup-bar short"></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <i class="fab fa-google-play"></i> Play Store
+                </a>
+                <a href="https://github.com/vustudentsguide" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-number">01</span>
+              <span class="project-status published">
+                <i class="fas fa-circle"></i> Published
+              </span>
+            </div>
+            <h3 class="project-title">VU Students Guide</h3>
+            <p class="project-description">
+              A comprehensive academic companion app for Virtual University students. Provides
+              access to past papers, study schedules, GPA calculators, and course resources —
+              solving the problem of scattered academic information.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Android</span>
+              <span class="tech-tag">Kotlin</span>
+              <span class="tech-tag">Firebase</span>
+              <span class="tech-tag">Google Play</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Nudge -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image">
+            <div class="project-mockup mockup-nudge">
+              <div class="mockup-screen">
+                <div class="mockup-header">
+                  <div class="mockup-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+                <div class="mockup-content">
+                  <div class="mockup-icon"><i class="fas fa-bell"></i></div>
+                  <div class="mockup-title">Nudge</div>
+                  <div class="mockup-bar"></div>
+                  <div class="mockup-bar short"></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fab fa-android"></i> Android App
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-number">02</span>
+              <span class="project-status">
+                <i class="fas fa-circle"></i> Android
+              </span>
+            </div>
+            <h3 class="project-title">Nudge</h3>
+            <p class="project-description">
+              A smart productivity and habit-tracking Android app designed to gently remind
+              users of their goals and tasks. Uses intelligent notifications to keep users
+              on track without being intrusive.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Android</span>
+              <span class="tech-tag">Kotlin</span>
+              <span class="tech-tag">Room DB</span>
+              <span class="tech-tag">WorkManager</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: VU Paper Review -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-image">
+            <div class="project-mockup mockup-paper">
+              <div class="mockup-screen">
+                <div class="mockup-header">
+                  <div class="mockup-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+                <div class="mockup-content">
+                  <div class="mockup-icon"><i class="fas fa-file-alt"></i></div>
+                  <div class="mockup-title">VU Paper Review</div>
+                  <div class="mockup-bar"></div>
+                  <div class="mockup-bar short"></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fab fa-android"></i> Android App
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-number">03</span>
+              <span class="project-status">
+                <i class="fas fa-circle"></i> Android
+              </span>
+            </div>
+            <h3 class="project-title">VU Paper Review</h3>
+            <p class="project-description">
+              An Android application that allows Virtual University students to access, review,
+              and practice with past examination papers. Features organized paper categories,
+              search functionality, and offline access.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Android</span>
+              <span class="tech-tag">Kotlin</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">PDF Viewer</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EXPERIENCE SECTION
+  ============================================================ -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">A timeline of my professional growth and development.</p>
+      </div>
+
+      <div class="timeline" data-aos="fade-up">
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-marker">
+            <div class="timeline-dot">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Android Developer</h3>
+                <p class="timeline-company">Software Development</p>
+              </div>
+              <span class="timeline-period">Feb 2024 – Aug 2024</span>
+            </div>
+            <p class="timeline-description">
+              Developed and maintained Android applications using Kotlin and Java. Built
+              scalable features, integrated RESTful APIs, and improved app performance.
+              Published apps to the Google Play Store with strong user feedback.
+            </p>
+            <div class="timeline-tags">
+              <span>Android</span><span>Kotlin</span><span>Firebase</span><span>REST APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+          <div class="timeline-marker">
+            <div class="timeline-dot">
+              <i class="fas fa-keyboard"></i>
+            </div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Data Entry &amp; Tech Support</h3>
+                <p class="timeline-company">Technical Services</p>
+              </div>
+              <span class="timeline-period">Jan 2023 – Feb 2024</span>
+            </div>
+            <p class="timeline-description">
+              Managed large-scale data entry operations with high accuracy and efficiency.
+              Provided technical support to end-users, troubleshooted hardware/software
+              issues, and streamlined data workflows with automation solutions.
+            </p>
+            <div class="timeline-tags">
+              <span>Data Management</span><span>Tech Support</span><span>Excel</span><span>Automation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+          <div class="timeline-marker">
+            <div class="timeline-dot">
+              <i class="fas fa-headset"></i>
+            </div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">IT Support</h3>
+                <p class="timeline-company">Information Technology</p>
+              </div>
+              <span class="timeline-period">Jun 2021 – Dec 2022</span>
+            </div>
+            <p class="timeline-description">
+              Delivered comprehensive IT support services including network configuration,
+              system maintenance, hardware troubleshooting, and software installations.
+              Ensured high system uptime and user satisfaction.
+            </p>
+            <div class="timeline-tags">
+              <span>IT Support</span><span>Networking</span><span>Hardware</span><span>Windows</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES SECTION
+  ============================================================ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What I Offer</span>
+        <h2 class="section-title">Services <span class="gradient-text">Offered</span></h2>
+        <p class="section-subtitle">High-quality development services tailored to your business needs.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon">
+            <i class="fab fa-android"></i>
+          </div>
+          <h3 class="service-title">Custom Android Development</h3>
+          <p class="service-description">
+            End-to-end Android app development using Kotlin. From concept and design to
+            deployment on the Google Play Store — built for performance and scalability.
+          </p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Native Android (Kotlin/Java)</li>
+            <li><i class="fas fa-check"></i> Google Play Deployment</li>
+            <li><i class="fas fa-check"></i> Firebase Integration</li>
+            <li><i class="fas fa-check"></i> API Integration</li>
+          </ul>
+        </div>
+
+        <div class="service-card featured" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-badge">Most Popular</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="service-flutter-svg"><path d="M14.314 0L2.3 12 6 15.7 21.684 0h-7.37zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z"/></svg>
+          </div>
+          <h3 class="service-title">Cross-Platform Apps (Flutter)</h3>
+          <p class="service-description">
+            Build once, deploy everywhere. Flutter-powered apps that run natively on
+            Android and iOS with a single codebase, saving time and development costs.
+          </p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Android &amp; iOS from one codebase</li>
+            <li><i class="fas fa-check"></i> Beautiful custom UI</li>
+            <li><i class="fas fa-check"></i> State management (BLoC/Provider)</li>
+            <li><i class="fas fa-check"></i> App Store &amp; Play Store deployment</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="service-title">Responsive Front-End Web</h3>
+          <p class="service-description">
+            Clean, modern, and fast websites built with HTML, CSS, and JavaScript that
+            look perfect on every device and convert visitors into customers.
+          </p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Mobile-first responsive design</li>
+            <li><i class="fas fa-check"></i> Performance optimized</li>
+            <li><i class="fas fa-check"></i> SEO-friendly markup</li>
+            <li><i class="fas fa-check"></i> Modern animations &amp; interactions</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3 class="service-title">AI-Powered App Features</h3>
+          <p class="service-description">
+            Integrate cutting-edge AI capabilities into your mobile or web applications —
+            from intelligent chatbots to image recognition and smart recommendations.
+          </p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> OpenAI / Gemini API integration</li>
+            <li><i class="fas fa-check"></i> ML Kit for Android</li>
+            <li><i class="fas fa-check"></i> Intelligent chatbots</li>
+            <li><i class="fas fa-check"></i> Smart content features</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION
+  ============================================================ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Social Proof</span>
+        <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+        <p class="section-subtitle">Don't just take my word for it — here's what people think.</p>
+      </div>
+
+      <div class="testimonials-carousel" data-aos="fade-up">
+        <div class="testimonials-track" id="testimonialsTrack">
+
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Abu Bakar delivered our Android app ahead of schedule. The code quality was
+              excellent and the UI looked exactly as we envisioned. Highly professional!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <span>SK</span>
+              </div>
+              <div class="author-info">
+                <strong>Sarah Khan</strong>
+                <span>Startup Founder</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Outstanding Flutter developer! He built our cross-platform app with clean code,
+              smooth animations, and handled every revision professionally. Will hire again!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <span>MA</span>
+              </div>
+              <div class="author-info">
+                <strong>Michael Adler</strong>
+                <span>Product Manager, TechCorp</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Great communicator and even better developer. Abu Bakar integrated AI features
+              into our app seamlessly. The result exceeded our expectations completely."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <span>LM</span>
+              </div>
+              <div class="author-info">
+                <strong>Lena Martinez</strong>
+                <span>CTO, InnovateTech</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="testimonial-text">
+              "Abu Bakar built a beautifully responsive website for our business. Fast,
+              SEO-optimized, and exactly what we needed. Professional and reliable freelancer."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <span>JR</span>
+              </div>
+              <div class="author-info">
+                <strong>James Robinson</strong>
+                <span>Small Business Owner</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-controls">
+          <button class="carousel-btn prev-btn" id="prevBtn" aria-label="Previous testimonial">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="carousel-dots" id="carouselDots"></div>
+          <button class="carousel-btn next-btn" id="nextBtn" aria-label="Next testimonial">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Have a project in mind? Let's build something amazing together.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info" data-aos="fade-right">
+          <div class="contact-cta-headline">
+            <h3>Let's Build Something <span class="gradient-text">Amazing</span> Together.</h3>
+            <p>
+              Whether you have a project idea, need a consultation, or just want to say hello —
+              my inbox is always open. I'll get back to you within 24 hours.
+            </p>
+          </div>
+
+          <div class="contact-channels">
+            <a href="mailto:abubakar@example.com" class="contact-channel">
+              <div class="channel-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="channel-text">
+                <span class="channel-label">Email Me</span>
+                <span class="channel-value">abubakar@example.com</span>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-channel">
+              <div class="channel-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="channel-text">
+                <span class="channel-label">LinkedIn</span>
+                <span class="channel-value">linkedin.com/in/abubakar</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/vustudentsguide" target="_blank" rel="noopener noreferrer" class="contact-channel">
+              <div class="channel-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="channel-text">
+                <span class="channel-label">GitHub</span>
+                <span class="channel-value">github.com/vustudentsguide</span>
+              </div>
+            </a>
+
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="contact-channel">
+              <div class="channel-icon youtube">
+                <i class="fab fa-youtube"></i>
+              </div>
+              <div class="channel-text">
+                <span class="channel-label">YouTube</span>
+                <span class="channel-value">Tech Content Channel</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper" data-aos="fade-left">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="budget">Project Budget</label>
+              <select id="budget" name="budget">
+                <option value="" disabled selected>Select your budget range</option>
+                <option value="less-500">Less than $500</option>
+                <option value="500-1000">$500 – $1,000</option>
+                <option value="1000-5000">$1,000 – $5,000</option>
+                <option value="5000+">$5,000+</option>
+                <option value="discuss">Let's Discuss</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="project">Project Details</label>
+              <textarea
+                id="project"
+                name="project"
+                rows="5"
+                placeholder="Tell me about your project — what you want to build, your timeline, and any specific requirements..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+              <span class="btn-shimmer"></span>
+            </button>
+
+            <div class="form-success" id="formSuccess">
+              <i class="fas fa-check-circle"></i>
+              <span>Message sent successfully! I'll get back to you within 24 hours.</span>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">
+            <span class="logo-bracket">&lt;</span>AbuBakar<span class="logo-bracket">/&gt;</span>
+          </a>
+          <p class="footer-tagline">
+            Building scalable digital solutions for web &amp; mobile. Let's create something
+            extraordinary together.
+          </p>
+          <div class="footer-social">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/vustudentsguide" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="mailto:abubakar@example.com" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Android Development</a></li>
+            <li><a href="#services">Flutter Apps</a></li>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">AI Integration</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-envelope"></i> abubakar@example.com</p>
+          <p><i class="fab fa-github"></i> github.com/vustudentsguide</p>
+          <a href="#contact" class="btn btn-primary footer-cta">
+            <i class="fas fa-paper-plane"></i> Hire Me Now
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Abu Bakar. All rights reserved.</p>
+        <p>Designed &amp; Built with <span class="heart">❤️</span> by Abu Bakar</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
